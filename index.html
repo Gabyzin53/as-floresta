@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Aventura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Jogo de Aventura</h1>
+    <p id="story">Bem-vindo ao jogo de aventura!</p>
+    <div id="choices">
+      <button onclick="makeChoice(1)">Escolha 1</button>
+      <button onclick="makeChoice(2)">Escolha 2</button>
+      <button onclick="makeChoice(3)">Escolha 3</button>
+    </div>
+    <p id="status">Vida: <span id="health">100</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
